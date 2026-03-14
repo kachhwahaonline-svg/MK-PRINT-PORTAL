@@ -1,0 +1,64 @@
+body
+{
+font-family:Arial;
+background:#f1f5f9;
+}
+
+.login-box
+{
+width:300px;
+margin:100px auto;
+padding:20px;
+background:white;
+box-shadow:0 0 10px gray;
+text-align:center;
+}
+
+input,select
+{
+width:90%;
+padding:10px;
+margin:10px;
+}
+
+button
+{
+padding:10px 20px;
+background:#2563eb;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.dashboard
+{
+padding:20px;
+}
+
+.grid
+{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+.box
+{
+background:white;
+padding:20px;
+box-shadow:0 0 5px gray;
+text-align:center;
+cursor:pointer;
+}
+
+table
+{
+width:100%;
+border-collapse:collapse;
+}
+
+td,th
+{
+border:1px solid gray;
+padding:8px;
+}
